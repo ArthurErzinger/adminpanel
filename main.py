@@ -1,7 +1,7 @@
 import tkinter as tk
-from gui.tela_principal import TelaPrincipal
+from gui.ui_main import AppEstoque
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = TelaPrincipal(root)
+    app = AppEstoque(root)
     root.mainloop()
